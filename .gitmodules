@@ -1,0 +1,9 @@
+[submodule "shared/zlib"]
+	path = shared/zlib
+	url = git@github.com:submods/zlib.git
+[submodule "shared/libpng"]
+	path = shared/libpng
+	url = git@github.com:submods/libpng.git
+[submodule "shared/gyp"]
+	path = shared/gyp
+	url = git@github.com:submods/gyp.git
