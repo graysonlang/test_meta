@@ -1,0 +1,33 @@
+# ==============================================================================
+#   Common Patterns
+# ------------------------------------------------------------------------------
+
+# Compiled Python files.
+*.pyc
+
+# macOS Finder "Desktop Services Store" database files.
+.DS_Store
+
+# Visual Studio cached settings.
+/.vs/
+
+# Visual Studio Code settings.
+**/*.vscode/
+.vscode/settings.json
+
+# Visual Studio "Intermediate Pre-Compiled Header" files.
+*.ipch
+
+# Visual Studio "Code Browsing Database" files.
+*.sdf
+
+# Visual Studio "Solution User Options" files.
+# https://msdn.microsoft.com/en-us/library/bb165909.aspx
+*.suo
+
+# Windows image thumbnail database files.
+Thumbs.db
+
+# Xcode user data.
+**/*.xcodeproj/xcuserdata/
+**/*.xcworkspace/xcuserdata/
