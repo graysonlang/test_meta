@@ -1,0 +1,161 @@
+// =============================================================================
+//  Xcode Recommended Build Settings
+// -----------------------------------------------------------------------------
+// [Architectures]
+
+// "Build Active Architecture Only"
+ONLY_ACTIVE_ARCH = YES
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Code Generation]
+
+// "No Common Blocks"
+GCC_NO_COMMON_BLOCKS = YES
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Preprocessing]
+
+// "Enable Strict Checking of objc_msgSend Calls"
+ENABLE_STRICT_OBJC_MSGSEND = YES
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Language - Objective C]
+
+// "Weak References in Manual Retain Release"
+CLANG_ENABLE_OBJC_WEAK = YES
+
+// -----------------------------------------------------------------------------
+// [Swift Compiler - Code Generation]
+
+// "Compilation Mode"
+SWIFT_COMPILATION_MODE = wholemodule
+SWIFT_COMPILATION_MODE[config=Debug] = singlefile
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Warnings - All languages]
+
+// "Block Capture of Autoreleasing"
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES
+
+// "Empty Loop Bodies"
+CLANG_WARN_EMPTY_BODY = YES
+
+// "Implicit Boolean Conversion"
+CLANG_WARN_BOOL_CONVERSION = YES
+
+// "Implicit Constant Conversions"
+CLANG_WARN_CONSTANT_CONVERSION = YES
+
+// "Implicit Conversion to 32 Bit Type"
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES
+
+// "Implicit Enum Conversions"
+CLANG_WARN_ENUM_CONVERSION = YES
+
+// "Implicit Integer to Pointer Conversions"
+CLANG_WARN_INT_CONVERSION = YES
+
+// "Implicit Non-Literal Null Conversions"
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES
+
+// "Infinite Recursion"
+CLANG_WARN_INFINITE_RECURSION = YES
+
+// "Mismatched Return Types"
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR
+
+// "Strict Prototypes"
+CLANG_WARN_STRICT_PROTOTYPES = YES
+
+// "Suspicious Commas"
+CLANG_WARN_COMMA = YES
+
+// "Uninitialized Variables"
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE
+
+// "Unreachable Code"
+CLANG_WARN_UNREACHABLE_CODE = YES
+
+// "Unused Variables"
+GCC_WARN_UNUSED_VARIABLE = YES
+
+// "Unused Functions"
+GCC_WARN_UNUSED_FUNCTION = YES
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Warnings - C++]
+
+// "Range-based For Loops"
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES
+
+// "Suspicous Moves"
+CLANG_WARN_SUSPICIOUS_MOVE = YES
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Warnings - Objective C]
+
+// "Duplicate Method Definitions"
+CLANG_WARN__DUPLICATE_METHOD_MATCH = YES
+
+// "Implicit Objective-C Literal Conversion"
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES
+
+// "Overriding Deprecated Objective-C Methods
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES
+
+// "Undeclared Selector"
+GCC_WARN_UNDECLARED_SELECTOR = YES
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Warnings - Objective C and ARC]
+
+// "Implicit retain of 'self' within blocks"
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES
+
+
+// =============================================================================
+//  Xcode Default Project Build Settings
+// -----------------------------------------------------------------------------
+// [Deployment]
+
+// "Strip Debug Symbols During Copy"
+COPY_PHASE_STRIP = NO
+
+// -----------------------------------------------------------------------------
+// [Search Paths]
+
+// "Always Search User Paths (Deprecated)"
+ALWAYS_SEARCH_USER_PATHS = NO
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Language - Modules]
+
+// "Enable Moduels (C and Objective-C)"
+CLANG_ENABLE_MODULES = YES
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Warnings - All languages]
+
+// "Documentation Comments"
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES
+
+// "Unguarded availability"
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Warnings - Objective C]
+
+// "Direct usage of 'isa'"
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR
+
+// "Unintentional Root Class"
+CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR
+
+// -----------------------------------------------------------------------------
+// [Static Analyzer - Issues - Apple APIs]
+
+// "Misuse of 'nonnull'"
+CLANG_ANALYZER_NONNULL = YES_AGGRESSIVE
+
+// "Suspicious Conversions of NSNumber and CFNumberRef"
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE

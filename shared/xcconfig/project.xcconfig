@@ -1,0 +1,99 @@
+#include "xcode_recommended.xcconfig"
+
+// =============================================================================
+//  Xcode Build Settings
+// -----------------------------------------------------------------------------
+// [Architectures]
+
+// "Architectures"
+ARCHS = $(ARCHS_STANDARD_64_BIT)
+
+// "Valid Architectures"
+VALID_ARCHS = $(ARCHS_STANDARD_64_BIT)
+
+// -----------------------------------------------------------------------------
+// [Build Options]
+
+// "Debug Information Format"
+DEBUG_INFORMATION_FORMAT = dwarf
+
+// "Enable Bitcode"
+ENABLE_BITCODE = NO
+
+// -----------------------------------------------------------------------------
+// [Deployment]
+
+// Strip Debug Symbols During Copy
+COPY_PHASE_STRIP[sdk=iphonesimulator*] = NO
+
+// "Targeted Device Family"
+TARGETED_DEVICE_FAMILY = 1,2
+
+// "iOS Deployment Target"
+IPHONEOS_DEPLOYMENT_TARGET = 11.3
+
+// "macOS Deployment Target"
+MACOSX_DEPLOYMENT_TARGET = 10.13
+
+// "Installation Directory"
+INSTALL_PATH = $(LOCAL_LIBRARY_DIR)/Frameworks
+
+// -----------------------------------------------------------------------------
+// [Deployment]
+
+// "Dynamic Library Install Name Base"
+DYLIB_INSTALL_NAME_BASE = @rpath
+
+// -----------------------------------------------------------------------------
+// [Linking]
+
+// "Dynamic Library Install Name Base"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks @loader_path/Frameworks
+
+// -----------------------------------------------------------------------------
+// [Search Paths]
+
+// "Use Header Maps"
+USE_HEADERMAP = NO
+
+// -----------------------------------------------------------------------------
+// [Signing]
+
+// "Sode Signing Identity"
+CODE_SIGN_IDENTITY =
+CODE_SIGN_IDENTITY[sdk=iphoneos*] =
+
+// "Code Signing Style"
+CODE_SIGN_STYLE = Manual
+
+// "Provisioning Profile"
+PROVISIONING_PROFILE_SPECIFIER =
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Custom Compiler Flags]
+
+// "Other Warning Flags"
+WARNING_CFLAGS = $(inherited) -Wno-unknown-warning-option
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Language]
+
+// "C Language Dialect"
+GCC_C_LANGUAGE_STANDARD = c11
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Language - C++]
+
+// "C++ Language Dialect"
+CLANG_CXX_LANGUAGE_STANDARD = c++14
+
+// "C++ Standard Library"
+CLANG_CXX_LIBRARY = libc++
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Preprocessing]
+
+// "Preprocessor Macros"
+PROJECT_PREPROCESSOR_DEFINITIONS_Debug = DEBUG=1 _DEBUG=1
+PROJECT_PREPROCESSOR_DEFINITIONS_Release = NDEBUG=1
+GCC_PREPROCESSOR_DEFINITIONS = $(PROJECT_PREPROCESSOR_DEFINITIONS_$(CONFIGURATION))

@@ -1,0 +1,10 @@
+// =============================================================================
+//  Xcode Build Settings
+// -----------------------------------------------------------------------------
+// [Architectures]
+
+// "Base SDK"
+SDKROOT = iphoneos
+
+// "Supported Platforms"
+SUPPORTED_PLATFORMS = iphonesimulator iphoneos

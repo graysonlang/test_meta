@@ -1,0 +1,1 @@
+{ 'includes': [ '../shared/config.gypi' ] }

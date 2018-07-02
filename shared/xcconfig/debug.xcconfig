@@ -1,0 +1,29 @@
+// =============================================================================
+//  Xcode Build Settings
+// -----------------------------------------------------------------------------
+// [Build Options]
+
+// "Enable Testability"
+ENABLE_TESTABILITY = YES
+
+// -----------------------------------------------------------------------------
+// [Deployment]
+
+// "Strip Debug Symbols During Copy"
+COPY_PHASE_STRIP = NO
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Code Generation]
+
+// "Optimization Level"
+GCC_OPTIMIZATION_LEVEL = 0
+
+// -----------------------------------------------------------------------------
+// [Undocumented]
+
+// Disable excessive logging in the simulator.
+DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*] = disable
+
+// Enable Metal debug information.
+// https://pewpewthespells.com/blog/buildsettings.html#mtl_enable_debug_info
+MTL_ENABLE_DEBUG_INFO = YES

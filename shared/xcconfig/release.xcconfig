@@ -1,0 +1,25 @@
+// =============================================================================
+//  Xcode Build Settings
+// -----------------------------------------------------------------------------
+// [Build Options]
+
+// "Validate Built Product"
+VALIDATE_PRODUCT = YES
+
+// -----------------------------------------------------------------------------
+// [Deployment]
+
+// "Strip Debug Symbols During Copy"
+COPY_PHASE_STRIP = YES
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Code Generation]
+
+// "Optimization Level"
+GCC_OPTIMIZATION_LEVEL = s
+
+// -----------------------------------------------------------------------------
+// [Apple Clang - Preprocessing]
+
+// "Enable Foundation Assertions"
+ENABLE_NS_ASSERTIONS = NO
