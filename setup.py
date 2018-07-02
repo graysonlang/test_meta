@@ -15,7 +15,7 @@ DIR_GYPI = os.path.abspath(os.path.join(DIR_ROOT, "shared", "gypi"))
 
 def generate_projects(gyp_file = None):
     gyp_path = os.path.relpath(gyp_file, os.getcwd())
-    print("Generating project files for \"~/" + gyp_path + "\".")
+    print("Generating project files for \"" + gyp_path + "\".")
     gyp.gyp_main([ gyp_file, "--depth=.", "--no-duplicate-basename-check" ])
 
 if __name__ == "__main__":
